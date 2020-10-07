@@ -57,6 +57,8 @@ function careerinfo(info) {
 }
 
 function education(edu) {
+  var div = document.createElement("div");
+  div.setAttribute("style", "overflow-x:auto");
   var heading3 = document.createElement("h3");
   heading3.textContent = "Educational Qualification";
   child2.append(heading3);
@@ -64,8 +66,10 @@ function education(edu) {
   child2.appendChild(document.createElement("hr"));
 
   var table1 = document.createElement("table");
-  child2.appendChild(table1);
-  table1.setAttribute("class", "table1 table table-bordered");
+  div.appendChild(table1);
+  child2.appendChild(div);
+  table1.setAttribute("class", "table1 table table-dark table-striped");
+  table1.setAttribute("id", "table");
   tabledata = "";
   for (i = 0; i < edu.length; i++) {
     tabledata +=
@@ -96,6 +100,7 @@ function skills(skillinfo) {
 
     var skillul = document.createElement("ul");
     var skillli = document.createElement("li");
+    skillli.setAttribute("style", "overflow-x:auto");
     skillli.textContent = skillinfo[i].info;
     skillul.appendChild(skillli);
     child2.appendChild(skillul);
