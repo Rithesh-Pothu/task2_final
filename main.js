@@ -80,7 +80,7 @@ function education(edu) {
       "</td><td>" +
       edu[i].passoutyear +
       "</td><td>" +
-      edu.percentage +
+      edu[i].percentage +
       "</td></tr>";
   }
   table1.innerHTML = tabledata;
