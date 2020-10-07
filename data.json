@@ -1,0 +1,46 @@
+{
+  "details": {
+    "name": "Rithesh Reddy",
+    "image": "images/Picture1.jpg",
+    "email": "rithesh.441@gmail.com",
+    "number": "+91-8790589699",
+    "address": "Kadapa, Andhra Pradesh"
+  },
+  "careerobjective": {
+    "info": "To Become a Software Developer"
+  },
+  "educationalqualification": [
+    {
+      "institute": "Madanapalle Institute of Technology & Science",
+      "degree": "Bachelor of Technology",
+      "passoutyear": "2022",
+      "percentage": "94.7"
+    },
+    {
+      "institute": "Narayana Olympiad",
+      "degree": "Intermediate",
+      "passoutyear": "2018",
+      "percentage": "96%"
+    },
+    {
+      "institute": "Keshava Reddy School",
+      "degree": "SSC",
+      "passoutyear": "2016",
+      "percentage": "98.3%"
+    }
+  ],
+  "technicalskills": [
+    {
+      "title": "Programming Languages",
+      "info": ["C,Python,Java,Python,R,JavaScript"]
+    },
+    {
+      "title": "Databases",
+      "info": ["Oracle,Sql,MySql,MongoDb"]
+    },
+    {
+      "title": "Operating Systems",
+      "info": ["Windows,Ubuntu"]
+    }
+  ]
+}

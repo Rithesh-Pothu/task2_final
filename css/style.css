@@ -1,0 +1,111 @@
+.child1 {
+  font-size: 200%;
+  border: 2px solid rgb(0, 165, 110);
+  padding: 1%;
+  margin: 1% 1%;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+}
+img {
+  width: 100%;
+}
+.parent {
+  display: flex;
+  margin: 1%;
+  border: 3px solid rgb(149, 0, 179);
+  flex-direction: row;
+}
+
+.child2 {
+  font-size: 200%;
+  border: 2px solid rgb(0, 165, 110);
+  padding: 1%;
+  margin: 1% 1%;
+  border-radius: 10px;
+  width: 50%;
+}
+
+@media screen and (min-width: 59px) and (max-width: 480px) {
+  .child1 {
+    border: 2px solid rgb(0, 165, 110);
+    padding: 1%;
+    margin: 1%;
+    width: 98%;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 1%;
+    overflow: scroll;
+  }
+  table {
+    width: 100%;
+  }
+  .child2 {
+    border: 2px solid rgb(0, 165, 110);
+    padding: 1%;
+    margin: 1%;
+    width: 98%;
+    font-size: 22px;
+    border-radius: 1%;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(149, 0, 179);
+    padding: 1%;
+    margin: 1% 1% 1% 1.5%;
+    width: 97%;
+  }
+  img {
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 4px 5px rgb(0, 165, 110);
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .child1 {
+    border: 2px solid rgb(0, 165, 110);
+    padding: 1%;
+    margin: 1%;
+    width: 98%;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 1%;
+    overflow: scroll;
+  }
+  table {
+    width: 100%;
+  }
+  .child2 {
+    border: 2px solid rgb(0, 165, 110);
+    padding: 1%;
+    margin: 1%;
+    width: 98%;
+    font-size: 22px;
+    border-radius: 1%;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(149, 0, 179);
+    padding: 1%;
+    margin: 1%;
+    width: 97%;
+  }
+  img {
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 4px 5px rgb(0, 165, 110);
+  }
+}
